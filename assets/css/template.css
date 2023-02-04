@@ -5,6 +5,7 @@
 body {
     padding: 0;
     margin: 0;
+    height: 1000px;
 }
 
 header {
@@ -16,8 +17,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 990px;
-    
+    width: 990px; 
 }
 .logo {
     display: flex;
@@ -132,4 +132,121 @@ nav .active, nav a:hover {
     display: flex;
     border-bottom: 1px solid #ddd;
     justify-content: space-between;
+}
+.geral {
+    display: flex;
+    justify-content: center;
+}
+
+.latest {
+    flex: 2;
+}
+.departments {
+    flex: 1;
+}
+.widget-title {
+    margin: 30px 0px 20px 0px;
+}
+.widget-title-text {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.widget-title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+.primary{
+    display: flex;
+    flex-direction: column;
+}
+.primary-title {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom:20px ;
+}
+
+.primary-title-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.primary-title-bar {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.primary-body {
+    display: flex;
+    align-items: center;
+    width: 330px;
+}
+
+.primary-body img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.primary-body p {
+    font-size: 15px;
+    color: #555;
+}
+
+.primary-button {
+    display: flex;
+    align-self:flex-end;
+    margin-top: 20px;
+}
+
+.primary-button a {
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+    margin-left: 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.clinic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #42b3e5;
+    font-size: 18px;
+}
+.clinic a img {
+    width: 22px;
+    height: 22px;
+}
+
+.consulta {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    border-bottom:1px solid #42b3e5;
+}
+
+.contact {
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    border-bottom:1px solid #42b3e5;
+}
+.contact img {
+    width: 30px;
+    height: 30px;
+}
+.telefone {
+    padding-left: 10px;
 }
