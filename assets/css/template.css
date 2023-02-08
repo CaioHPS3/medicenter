@@ -5,7 +5,6 @@
 body {
     padding: 0;
     margin: 0;
-    height: 1000px;
 }
 
 header {
@@ -17,7 +16,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 990px; 
+    width: 990px;
 }
 .logo {
     display: flex;
@@ -38,7 +37,7 @@ nav ul{
 }
 nav a{
     display: block;
-    padding: 15px;
+    padding: 8px;
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
@@ -54,10 +53,9 @@ nav .active, nav a:hover {
     justify-content: center;
     /*Colocando a imagem no fundo, no html ela fica em cima*/
     background-image:url('../images/img1.jpg');
-    background-position: center;
     /*Vai fazer com que a imagem ocupe todo o monitor, se adaptando ao tamanho dele*/
+    background-position: center;
     background-size: cover;
-    height: 670px;
 }
 
 .column {
@@ -72,6 +70,9 @@ nav .active, nav a:hover {
     flex: 1; 
     color: #fff;
     text-shadow: 1px 1px 0px #000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
     
 }
 .banner-headline h1 {
@@ -87,7 +88,7 @@ nav .active, nav a:hover {
     max-width: 350px;
 }
 .banner-options{
-    height: 210px;
+    height: auto;
     display: flex;
 }
 .banner1, .banner2, .banner3 {
@@ -117,7 +118,8 @@ nav .active, nav a:hover {
 
 .banner-desc {
     font-size: 17px;
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -311,29 +313,132 @@ nav .active, nav a:hover {
 }
 .prox {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin-bottom: 10px;
 
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.rodape-menu {
+    display: flex;
+}
+
+.menu1, .menu2, .menu3 {
+    flex: 1;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.menu1{
+    
+    background-color:#39aae1;
+    
+}
+.menu2{
+    
+    background-color:#0079c7;
+    
+}
+.menu3{
+    
+    background-color:#2b4c99;
+}
+
+.menu-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.menu-text a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .rodape {
-    
-    display: flex;
-    justify-content: center;
-      
-}
-.containe-rodape {
-    color: #fff;
-    display: flex;
-    background-color: #000;
-    width: 990px;
+    flex-direction: column;
 }
 
-.rodape-banner{
+.rodape-area {
     display: flex;
-    background-color: #2b4c99;
-    flex: 1;
 }
-.rodabanner1,.rodabanner2,.rodabanner3{
+
+.rodape-body {
     flex: 1;
-    background-color: red;
+    margin-top: 20px;
+}
+.rodape-title1{
+    display: block;
+}
+.rodape-title{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape-text {
+    font-size: 20px;
+    color: #fff;
+}
+
+.rodape-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.rodape-button a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid beige;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.rodape-button {
+    margin-right: 10px;
+}
+.rodape-copy{
+    margin-top: 30px;
+    border-top: 2px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 12px;
+    height: 40px;
+}
+.rodape-conteudo {
+    margin-top: 20px;
+    color: #727272;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-text {
+    align-items: center;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais a img {
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+}
+
+@media (max-width:600px) {
+    .banner-headline h1{
+        font-size:55px;
+    }
+    .banner-headline h2 {
+        font-size: 21px;
+    }
+    .banner-options {
+        flex-direction: column;
+    }
 }
