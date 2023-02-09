@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/template.css">
     <title>MediCenter</title>
+    <script type="text/javascript">
+        window.onload = function (){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };    
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +28,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
                     <ul>
                         
                         <li><a class="active" href="#">Home</a></li>
@@ -302,7 +318,35 @@
                         <div class="rodape-button">
                             <a href="#"><-</a>
                             <a href="#">-></a>
-
+                        </div>
+                    </div>
+                    <div class="rodape-conteudo">
+                        <p class="conteudo-text">
+                            Mauris adipiscing mausnis fringilla turpis interdum
+                            sed pulvinar nisi malesuada individual.
+                        </p>
+                        <div class="coteudo-contatos">
+                            <div class="contato">
+                                <p>Medicente</p>
+                            </div>
+                            <div class="contato">
+                                <p>33 Fariane Street</p>
+                                <p>+123 655 655</p>
+                            </div>
+                            <div class="contato">
+                                <p>Keitor East</p>
+                                <p>+123 655 655</p>
+                            </div>
+                            <div class="contato">
+                                <p>VIC 3033, Australia</p>
+                                <p>medicenter@mail.com</p>
+                            </div>
+                        </div>
+                        <div class="redes-sociais">
+                            <a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="./assets/images/email.png" alt="email"></a>
+                            <a href="#"><img src="./assets/images/calendario.png" alt="calendario"></a>
                         </div>
                     </div>
                 </div>
@@ -316,6 +360,35 @@
                             <a href="#"><-</a>
                             <a href="#">-></a>
 
+                        </div>
+                    </div>
+                    <div class="rodape-conteudo">
+                        <p class="conteudo-text">
+                            Mauris adipiscing mausnis fringilla turpis interdum
+                            sed pulvinar nisi malesuada individual.
+                        </p>
+                        <div class="coteudo-contatos">
+                            <div class="contato">
+                                <p>Medicente</p>
+                            </div>
+                            <div class="contato">
+                                <p>33 Fariane Street</p>
+                                <p>+123 655 655</p>
+                            </div>
+                            <div class="contato">
+                                <p>Keitor East</p>
+                                <p>+123 655 655</p>
+                            </div>
+                            <div class="contato">
+                                <p>VIC 3033, Australia</p>
+                                <p>medicenter@mail.com</p>
+                            </div>
+                        </div>
+                        <div class="redes-sociais">
+                            <a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="./assets/images/email.png" alt="email"></a>
+                            <a href="#"><img src="./assets/images/calendario.png" alt="calendario"></a>
                         </div>
                     </div>
                 </div>

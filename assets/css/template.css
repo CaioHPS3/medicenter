@@ -70,8 +70,7 @@ nav .active, nav a:hover {
     flex: 1; 
     color: #fff;
     text-shadow: 1px 1px 0px #000;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin:100px 0px;
 
     
 }
@@ -414,6 +413,8 @@ footer {
     color: #727272;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    
 }
 
 .conteudo-text {
@@ -431,14 +432,76 @@ footer {
     margin: 4px;
 }
 
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px;
+    margin-right: 20px;
+}
+
+.mm-line {
+    height: 4px;
+    background-color: #0079c7;
+}
+
 @media (max-width:600px) {
     .banner-headline h1{
         font-size:55px;
+        padding: 5px;
     }
     .banner-headline h2 {
         font-size: 21px;
+        padding: 5px;
     }
     .banner-options {
         flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .lastest-news {
+        flex-direction: column;
+    }
+    .geral{
+        padding: 10px;
+    }
+    .rodape-menu {
+        flex-direction: column;
+    }
+    .rodape-area {
+        flex-direction: column;
+    }
+    .rodape-title {
+        padding: 10px;
+    }
+    .rodape-title1 {
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width:750px) {
+    header {
+        height: auto;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        position: absolute;
+    }
+    .logo {
+        padding-left:20px;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
