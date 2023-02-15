@@ -11,31 +11,37 @@ header {
     display: flex;
     justify-content: center;
     height: 120px;
-    
+
 }
+
 .container {
     display: flex;
     justify-content: space-between;
     width: 990px;
 }
+
 .logo {
     display: flex;
     align-items: center;
 }
+
 .menu {
     display: flex;
     align-items: center;
 }
 
-nav ul, nav li{
-     list-style:none;
-     margin: 0;
-     padding: 0;
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav a{
+
+nav a {
     display: block;
     padding: 8px;
     text-decoration: none;
@@ -43,7 +49,8 @@ nav a{
     color: #727272;
 }
 
-nav .active, nav a:hover {
+nav .active,
+nav a:hover {
     background-color: #39aae1;
     color: #fff;
 }
@@ -52,7 +59,7 @@ nav .active, nav a:hover {
     display: flex;
     justify-content: center;
     /*Colocando a imagem no fundo, no html ela fica em cima*/
-    background-image:url('../images/img1.jpg');
+    background-image: url('../images/img1.jpg');
     /*Vai fazer com que a imagem ocupe todo o monitor, se adaptando ao tamanho dele*/
     background-position: center;
     background-size: cover;
@@ -67,49 +74,58 @@ nav .active, nav a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1; 
+    flex: 1;
     color: #fff;
     text-shadow: 1px 1px 0px #000;
-    margin:100px 0px;
+    margin: 100px 0px;
 
-    
+
 }
+
 .banner-headline h1 {
     font-size: 70px;
     padding: 0;
     margin: 0;
     max-width: 350px;
 }
+
 .banner-headline h2 {
     font-size: 25px;
     padding: 0;
     margin: 30px 0px 0px 0px;
     max-width: 350px;
 }
-.banner-options{
+
+.banner-options {
     height: auto;
     display: flex;
 }
-.banner1, .banner2, .banner3 {
+
+.banner1,
+.banner2,
+.banner3 {
     color: #fff;
     padding: 20px;
     font-size: 15px;
     flex: 1;
 }
-.banner1{
-    
-    background-color:#39aae1;
-    
+
+.banner1 {
+
+    background-color: #39aae1;
+
 }
-.banner2{
-    
-    background-color:#0079c7;
-    
+
+.banner2 {
+
+    background-color: #0079c7;
+
 }
-.banner3{
-    
-    background-color:#2b4c99;
-}  
+
+.banner3 {
+
+    background-color: #2b4c99;
+}
 
 .banner-title {
     font-size: 25px;
@@ -129,11 +145,13 @@ nav .active, nav a:hover {
     text-decoration: none;
     color: #fff;
 }
-.banner-horario{
+
+.banner-horario {
     display: flex;
     border-bottom: 1px solid #ddd;
     justify-content: space-between;
 }
+
 .geral {
     display: flex;
     justify-content: center;
@@ -142,34 +160,40 @@ nav .active, nav a:hover {
 .latest {
     flex: 2;
 }
+
 .departments {
     flex: 1;
 }
+
 .widget-title {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .widget-title-text {
     color: #000;
     font-size: 20px;
     font-weight: bold;
 }
+
 .widget-title-bar {
     width: 50px;
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
 }
-.primary{
+
+.primary {
     display: flex;
     flex-direction: column;
 }
+
 .primary-title {
     background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
 
 .primary-title-text {
@@ -198,6 +222,7 @@ nav .active, nav a:hover {
     height: 70px;
     margin-right: 10px;
 }
+
 .primary-body p {
     font-size: 15px;
     color: #555;
@@ -205,7 +230,7 @@ nav .active, nav a:hover {
 
 .primary-button {
     display: flex;
-    align-self:flex-end;
+    align-self: flex-end;
     margin-top: 20px;
 }
 
@@ -222,9 +247,10 @@ nav .active, nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom:1px solid #42b3e5;
+    border-bottom: 1px solid #42b3e5;
     font-size: 18px;
 }
+
 .clinic a img {
     width: 22px;
     height: 22px;
@@ -233,7 +259,7 @@ nav .active, nav a:hover {
 .consulta {
     padding-bottom: 30px;
     font-size: 15px;
-    border-bottom:1px solid #42b3e5;
+    border-bottom: 1px solid #42b3e5;
 }
 
 .contact {
@@ -241,12 +267,14 @@ nav .active, nav a:hover {
     margin-top: 15px;
     padding-bottom: 15px;
     align-items: center;
-    border-bottom:1px solid #42b3e5;
+    border-bottom: 1px solid #42b3e5;
 }
+
 .contact img {
     width: 30px;
     height: 30px;
 }
+
 .telefone {
     padding-left: 10px;
 }
@@ -256,7 +284,7 @@ nav .active, nav a:hover {
     flex-wrap: wrap;
 }
 
-.news{
+.news {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -266,11 +294,13 @@ nav .active, nav a:hover {
 .heade-date {
     display: flex;
 }
+
 .news-img img {
     width: 100%;
     height: auto;
-    object-fit:cover;
+    object-fit: cover;
 }
+
 .date {
     color: #fff;
     background-color: #0079c7;
@@ -280,6 +310,7 @@ nav .active, nav a:hover {
     font-size: 12px;
 
 }
+
 .numero-news {
     color: #fff;
     background-color: #42b3e5;
@@ -288,21 +319,25 @@ nav .active, nav a:hover {
     margin-left: 2px;
     font-size: 12px;
 }
+
 .news-text-title {
     color: #000;
     font-size: 20px;
     margin-top: 25px;
 }
+
 .news-text-body {
     margin-top: 25px;
     color: #5c5c5c;
 }
+
 .description {
     color: #5c5c5c;
     margin-top: 20px;
-    font-size: 10px; 
+    font-size: 10px;
     margin-bottom: 20px;
 }
+
 .news-text-bar {
     width: auto;
     height: 2px;
@@ -310,6 +345,7 @@ nav .active, nav a:hover {
     margin-right: 10px;
     margin-bottom: 25px;
 }
+
 .prox {
     display: flex;
     justify-content: center;
@@ -322,30 +358,35 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 .rodape-menu {
     display: flex;
 }
 
-.menu1, .menu2, .menu3 {
+.menu1,
+.menu2,
+.menu3 {
     flex: 1;
     justify-content: center;
     padding: 20px;
     color: #fff;
 }
 
-.menu1{
-    
-    background-color:#39aae1;
-    
+.menu1 {
+
+    background-color: #39aae1;
+
 }
-.menu2{
-    
-    background-color:#0079c7;
-    
+
+.menu2 {
+
+    background-color: #0079c7;
+
 }
-.menu3{
-    
-    background-color:#2b4c99;
+
+.menu3 {
+
+    background-color: #2b4c99;
 }
 
 .menu-title {
@@ -370,14 +411,17 @@ footer {
     flex: 1;
     margin-top: 20px;
 }
-.rodape-title1{
+
+.rodape-title1 {
     display: block;
 }
-.rodape-title{ 
+
+.rodape-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .rodape-text {
     font-size: 20px;
     color: #fff;
@@ -401,27 +445,29 @@ footer {
 .rodape-button {
     margin-right: 10px;
 }
-.rodape-copy{
+
+.rodape-copy {
     margin-top: 30px;
     border-top: 2px solid #2c2c2c;
     color: #5c5c5c;
     font-size: 12px;
     height: 40px;
 }
+
 .rodape-conteudo {
     margin-top: 20px;
     color: #727272;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    
+
 }
 
 .conteudo-text {
     align-items: center;
 }
 
-.contato{
+.contato {
     display: flex;
     justify-content: space-between;
 }
@@ -446,51 +492,63 @@ footer {
 }
 
 @media (max-width:600px) {
-    .banner-headline h1{
-        font-size:55px;
+    .banner-headline h1 {
+        font-size: 55px;
         padding: 5px;
     }
+
     .banner-headline h2 {
         font-size: 21px;
         padding: 5px;
     }
+
     .banner-options {
         flex-direction: column;
     }
-    .container{
+
+    .container {
         flex-direction: column;
     }
+
     .lastest-news {
         flex-direction: column;
     }
-    .geral{
+
+    .geral {
         padding: 10px;
     }
+
     .rodape-menu {
         flex-direction: column;
     }
+
     .rodape-area {
         flex-direction: column;
     }
+
     .rodape-title {
         padding: 10px;
     }
+
     .rodape-title1 {
         padding: 10px;
     }
+
     .rodape-copy {
         padding-left: 10px;
     }
-    
+
 }
 
 @media (max-width:750px) {
     header {
         height: auto;
     }
+
     header .container {
         flex-direction: row;
     }
+
     nav ul {
         flex-direction: column;
         display: none;
@@ -499,10 +557,12 @@ footer {
         left: 0;
         position: absolute;
     }
+
     .logo {
-        padding-left:20px;
+        padding-left: 20px;
     }
-    .menuMobile{
+
+    .menuMobile {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
